@@ -1,2 +1,2 @@
-# rx-580-lending
-My first lending page
+# rx-580-landing
+My first landing page
