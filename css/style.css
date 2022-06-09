@@ -269,7 +269,6 @@ body {
 
 .footerLink {
     color: #fff;
-    text-decoration: underline;
     font-size: 12px;
     line-height: 15px;
 }
@@ -298,4 +297,51 @@ body {
 
 .footerContactsLogo {
     margin-right: 10px;
+}
+
+.policyInner > h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.policyInner {
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    border: #6f6f6f 1px solid;
+}
+
+
+
+@media (max-width: 990px) {
+    .menu {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .headerInner {
+        display: block;
+        text-align: center;
+    }
+    .menu {
+        margin-top: 50px;
+    }
+    .menuList {
+        justify-content: space-evenly;
+    }
+    .menuItem + .menuItem {
+        padding-left: 0;
+    }
+    .menuLink {
+        padding: 25px 20px;
+    }
+}
+
+@media (max-width: 460px) {
+    .menuList {
+        justify-content: space-between;
+    }
+    .menuLink {
+        padding: 25px 0;
+    }
 }
